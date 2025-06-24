@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://pbs.twimg.com/media/Foni-56WYAAHCHu?format=jpg&name=900x900");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+span {
+    font-size: 20px;
+    width: 200px;
+    height: 80px;
+    padding-bottom: 20px;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
