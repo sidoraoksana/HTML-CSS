@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Oswald:wght@200..700&display=swap');
+
+.manufacturing-text {
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+}
+
+
+.oswald-400 {
+    font-family: "Oswald", sans-serif;
+
+}
