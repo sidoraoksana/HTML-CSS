@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-bottom:100px solid dodgerblue;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    animation: preloader 6s linear infinite alternate;
+}
+@keyframes preloader{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(-360deg) scale(1.5) ;
+    }
+}

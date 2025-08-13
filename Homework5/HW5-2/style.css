@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.animation img {
+    height: 200px;
+}
+.kolobok{
+    animation: kolobok 2s ease-out infinite alternate-reverse;
+}
+@keyframes kolobok {
+    from{
+        transform:  translate(0, 0);
+    }
+    20%{
+        transform:  translate(20px, 100px);
+    }
+    40%{
+        transform:  translate(40px, -10px);
+    }
+    60%{
+        transform:  translate(60px, 100px);
+    }
+    80%{
+        transform:  translate(100px, -15px);
+    }
+    to{
+        transform:  translate(200px, 100px);
+    }
+}
+
