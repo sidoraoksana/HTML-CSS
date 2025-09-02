@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-registration {
+    width: 30vw;
+    height: 70vh;
+    border: #7F7A7A 1px solid;
+    display:  flex;
+    justify-content:  center;
+    align-items:   center;
+    flex-direction: column;
+    font-family: "Roboto Light" , sans-serif;
+}
+form{
+    display:  flex;
+    justify-content:  center;
+    align-items:   center;
+    flex-direction: column;
+
+}
+input[type=text], input[type=password] {
+    margin: 5px;
+    width: 250px;
+    height: 20px;
+}
+.form-registration button{
+    width: 260px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #5a89d6;
+    border: none;
+    margin-top: 10px;
+    color: white;
+}
+ .gray{
+    color: gray;
+}
+ .blue{
+     color: #2b4275;
+
+ }
+ .blue-password{
+     color: #2b4275;
+     font-size: 15px;
+ }
+ .form-registration p{
+     font-weight: bold;
+ }
+ .registration{
+     width: 30vw;
+     height: 10vh;
+     border: #7F7A7A 1px solid;
+     display:  flex;
+     justify-content:  center;
+     align-items:   center;
+     flex-direction: column;
+     font-family: "Roboto Light" , sans-serif;
+ }
+ .form-registration-instagram{
+     display:  flex;
+     justify-content:  center;
+     align-items:   center;
+     flex-direction: column;
+     gap: 20px;
+ }
+span{
+    color:dodgerblue;
+}
